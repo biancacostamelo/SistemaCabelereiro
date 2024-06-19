@@ -9,6 +9,8 @@ import Cadastrodefuncionario from './paginas/cadastroDeFuncionário.jsx'
 import Cadastrodeproduto from './paginas/cadastroDeProdutos.jsx'
 import Modificarproduto from './paginas/modificarProduto2.jsx'
 import Modificarfuncionario from './paginas/modificarFuncionario.jsx';
+import Cardproduto from './paginas/card.jsx';
+import Cardfuncionario from './componentes/cardfuncionario.jsx'
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
         </Route>
         <Route path ='/Modificarfuncionario'>
           <Modificarfuncionario/>
+        </Route>
+        <Route path ='/Cardproduto'>
+          <Cardproduto/>
+        </Route>
+        <Route path ='/Cardfuncionario'>
+          <Cardfuncionario/>
         </Route>
       </Switch>  
     </Router>

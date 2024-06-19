@@ -96,7 +96,7 @@ const Modificarfuncionario = () => {
                         </div>
                     </div>
                     <div class="mc">
-                        <button class="botão2 m-4">MODIFICAR</button>
+                        <button class="botão m-4">MODIFICAR</button>
                     </div>
 
                 </div>

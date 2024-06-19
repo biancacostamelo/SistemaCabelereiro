@@ -30,10 +30,14 @@ const Sidebar = () => {
                             <Link to='/Modificarproduto'>Modificar Produto</Link>
                         </li>
                     </div>
-
                     <div className="areaMenu p-3" >
                         <li>
-                            <a href="#">Dashboard</a>
+                            <Link to='/Cardfuncionario'>Funcionários</Link>
+                        </li>
+                    </div>
+                    <div className="areaMenu p-3" >
+                        <li>
+                            <Link to='/Cardproduto'>Produtos</Link>
                         </li>
                     </div>
                 </ul>
@@ -41,7 +45,7 @@ const Sidebar = () => {
                     <div className="col-sm-12">
                         <div className="loginadm">
                             <h5 className="m-1 fb">ADM</h5>
-                            <button className="botão m-1">DESLOGAR</button>
+                            <button className="botão2 m-1">DESLOGAR</button>
                         </div>
                     </div>
                 </div>

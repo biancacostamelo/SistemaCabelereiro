@@ -44,7 +44,7 @@ const Cadastrodeprodutos = () => {
                 </div>
             </div>
             <div className="mc">
-                <button class="botão2 m-4">CADASTRAR</button>
+                <button class="botão m-4">CADASTRAR</button>
             </div>
         </div>
     </div>

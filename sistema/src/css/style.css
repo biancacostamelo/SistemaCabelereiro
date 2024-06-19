@@ -4,6 +4,9 @@ body{
 .fb{
   color: whitesmoke;
 }
+.fc{
+  color: #707070;
+}
 input{
     border: 1px solid #707070;
 }
@@ -39,9 +42,13 @@ input{
 .botão{
     float: right;
     background-color: #2ED0C0;
-    color: whitesmoke;
-    width: 124px;
+    color: rgb(255, 255, 255);
     border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 2px 2px 2px ;
+    font-size: 10pt;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .botão2{
     background-color: #2ED0C0;

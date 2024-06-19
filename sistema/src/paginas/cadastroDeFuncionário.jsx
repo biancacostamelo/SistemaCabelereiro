@@ -95,7 +95,7 @@ const Cadastrodefuncionario = () => {
                 </div>
             </div>
             <div className="mc">
-                <button className="botão2 m-4">CADASTRAR</button>
+                <button className="botão m-4">CADASTRAR</button>
             </div>
         </div>
     </div>
